@@ -1,0 +1,10 @@
+BEFORE DEPLOYMENT - Replace these placeholders:
+
+1. YOURSITE.com → Your actual domain (e.g. acrepairdelhincr.com)
+   - In: robots.txt, sitemap.xml, index.html, all brand pages (canonical, schema)
+
+2. +918000000000 → Your actual phone number
+   - In: All HTML files (tel: links)
+
+3. Submit sitemap to Google Search Console after deploy:
+   https://YOURSITE.com/sitemap.xml
