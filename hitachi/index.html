@@ -5,7 +5,7 @@
         <title>Hitachi AC Repair Delhi NCR | ₹350 Visiting Charge | Same Day Service</title>
         <meta name="description" content="Hitachi AC Repair in Delhi NCR – ₹350 Visiting Charge. Same Day Hitachi Split & Window AC Repair. Gas Refill, Water Leak Fix. Call Now 24x7." />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://YOURSITE.com/hitachi/" />
+        <link rel="canonical" href="https://24x7servicescare.com/hitachi/" />
         <link rel="preload" as="image" href="img/ac-hero.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Hitachi AC Repair Delhi NCR | ₹350 | Same Day" />
@@ -44,13 +44,39 @@
             .disclaimer-hero { font-size: 11px; opacity: 0.9; margin-top: 12px; }
             .sticky-call { position: fixed; bottom: 0; left: 0; right: 0; background: #28a745; text-align: center; padding: 14px; z-index: 100; }
             .sticky-call a { color: white; font-weight: 700; font-size: 17px; text-decoration: none; }
+        
+            /* Form and Floating Button Styles */
+            .hero { align-items: stretch; }
+            .hero-text { flex: 1; align-self: center; }
+            .hero-form { background: #11447d; border-radius: 12px; padding: 24px; min-width: 320px; flex: 1; max-width: 450px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+            .hero-form h2 { color: #fff; text-align: center; margin-bottom: 20px; font-size: 24px; }
+            .hero-form input, .hero-form select { width: 100%; padding: 14px; margin-bottom: 16px; border: none; border-radius: 6px; background: rgba(255,255,255,0.15); color: #fff; font-size: 15px; outline: none; }
+            .hero-form input::placeholder { color: rgba(255,255,255,0.7); }
+            .hero-form select { color: rgba(255,255,255,0.9); appearance: none; background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'); background-repeat: no-repeat; background-position: right 14px top 50%; background-size: 12px auto; }
+            .hero-form select option { color: #333; }
+            .btn-auto-detect { background: #e74c3c; width: 100%; color: white; border: none; padding: 12px; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 15px; transition: background 0.2s; margin-bottom: 16px; }
+            .btn-auto-detect:hover { background: #c0392b; }
+            .btn-submit { background: #2ecc71; width: 100%; color: white; border: none; padding: 14px; border-radius: 6px; font-size: 18px; font-weight: bold; cursor: pointer; transition: background 0.2s; margin-top: 10px; }
+            .btn-submit:hover { background: #27ae60; }
+            
+            .floating-actions { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 15px; z-index: 1000; align-items: flex-end; }
+            .float-call, .float-enquiry { padding: 14px 24px; border-radius: 50px; color: white; font-weight: 700; text-decoration: none; font-size: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); display: flex; align-items: center; gap: 8px; transition: transform 0.2s; }
+            .float-call:hover, .float-enquiry:hover { transform: translateY(-3px); }
+            .float-call { background: #0b3d6e; }
+            .float-enquiry { background: #28a745; }
+            @media (max-width: 768px) {
+                .hero { flex-direction: column; padding: 30px 5%; }
+                .hero-form { width: 100%; min-width: 100%; max-width: 100%; }
+                .floating-actions { bottom: 70px; /* Above the global sticky call button */ }
+            }
+
         </style>
     </head>
     <body>
         <header>
             <a href="/" class="back-link">← All Brands</a>
             <div class="logo">Hitachi AC Repair Delhi NCR</div>
-            <a href="tel:+918000000000" class="call-top">📞 Call Now</a>
+            <a href="tel:+916398172122" class="call-top">📞 Call Now</a>
         </header>
         <main>
             <section class="hero">
@@ -58,11 +84,30 @@
                     <h1>Hitachi AC Repair Service in Delhi NCR</h1>
                     <p class="price-tag">₹350 Visiting Charge – Same Day Service</p>
                     <p class="sub">Split AC | Window AC | Gas Refill | Water Leak Fix</p>
-                    <div class="hero-ctas"><a href="tel:+918000000000" class="btn">📞 Call Technician Now</a></div>
+                    <div class="hero-ctas"><a href="tel:+916398172122" class="btn">📞 Call Technician Now</a></div>
                     <p class="trust-line">✓ Experienced Technicians ✓ Genuine Parts ✓ 24x7 Support</p>
                     <p class="disclaimer-hero">Independent service provider. Not affiliated with Hitachi Ltd.</p>
                 </div>
-                <div class="hero-image"><img src="img/ac-hero.jpg" alt="Hitachi Split AC Repair Delhi NCR" width="420" height="296" fetchpriority="high" decoding="async" /></div>
+                
+                <div class="hero-form" id="book-appointment">
+                    <h2>Book Appointment</h2>
+                    <form action="#" onsubmit="event.preventDefault(); var fd=new FormData(this); var t='*New AC Enquiry*%0A*Name:* '+fd.get('name')+'%0A*Mobile:* '+fd.get('mobile')+'%0A*Location:* '+fd.get('location')+'%0A*Product:* '+fd.get('product')+'%0A*Warranty:* '+fd.get('warranty'); window.open('https://wa.me/916398172122?text='+t, '_blank');">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="tel" name="mobile" placeholder="Mobile No" required pattern="[0-9]{10}">
+                        <div style="display: flex; gap: 10px; flex-direction: column;">
+                            <input type="text" name="location" placeholder="Your Location" required>
+                            <button type="button" class="btn-auto-detect" onclick="var btn=this; var inp=btn.previousElementSibling; inp.value='Locating...'; if(navigator.geolocation){ navigator.geolocation.getCurrentPosition(function(p){ fetch('https://nominatim.openstreetmap.org/reverse?format=json&lat='+p.coords.latitude+'&lon='+p.coords.longitude).then(function(res){return res.json();}).then(function(data){inp.value=data.display_name||(p.coords.latitude+','+p.coords.longitude);}).catch(function(){inp.value=p.coords.latitude+','+p.coords.longitude;}); }, function(){inp.value=''; alert('Location access denied');}); } else { alert('Location not supported'); }">Auto Detect</button>
+                        </div>
+                        <input type="text" name="product" placeholder="Product Name (e.g. Hitachi AC)" required>
+                        <select name="warranty" required>
+                            <option value="" disabled selected>Select Warranty Status</option>
+                            <option value="in_warranty">In Warranty</option>
+                            <option value="out_warranty">Out of Warranty</option>
+                        </select>
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                </div>
+
             </section>
             <section class="section">
                 <h2>Professional Hitachi AC Repair Services</h2>
@@ -85,8 +130,14 @@
             </section>
         </main>
         <footer>Independent Hitachi AC Repair Service Provider. Not affiliated with or endorsed by Hitachi Ltd.<br /><br />© 2026 Hitachi AC Repair Delhi NCR &nbsp;|&nbsp; <a href="/privacy.html">Privacy Policy</a></footer>
-        <div class="sticky-call"><a href="tel:+918000000000">📞 Call Now – 24x7 Support</a></div>
-        <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Hitachi AC Repair Delhi NCR","description":"Hitachi AC Repair in Delhi NCR. ₹350 visiting charge. Same day service.","telephone":"+918000000000","areaServed":{"@type":"GeoCircle","geo":{"@type":"GeoCoordinates","latitude":"28.6139","longitude":"77.2090"},"radius":"50000"},"priceRange":"₹350"}</script>
+        
+        <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Hitachi AC Repair Delhi NCR","description":"Hitachi AC Repair in Delhi NCR. ₹350 visiting charge. Same day service.","telephone":"+916398172122","areaServed":{"@type":"GeoCircle","geo":{"@type":"GeoCoordinates","latitude":"28.6139","longitude":"77.2090"},"radius":"50000"},"priceRange":"₹350"}</script>
         <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Hitachi AC repair visiting charge in Delhi NCR?","acceptedAnswer":{"@type":"Answer","text":"We charge ₹350 as a one-time visiting charge for Hitachi AC repair in Delhi NCR. Parts and labour are quoted separately after diagnosis."}},{"@type":"Question","name":"Do you repair Hitachi Split AC and Window AC?","acceptedAnswer":{"@type":"Answer","text":"Yes. We repair both Hitachi Split AC and Window AC. Services include not cooling, gas refill, water leakage, and installation."}},{"@type":"Question","name":"Is same day Hitachi AC repair available?","acceptedAnswer":{"@type":"Answer","text":"Yes. Same day Hitachi AC repair is available in Delhi NCR. Call to schedule. We serve Delhi, Noida, Gurgaon, Faridabad and nearby areas."}}]}</script>
+    
+        <div class="floating-actions">
+            <a href="tel:+916398172122" class="float-call">📞 Call +916398172122</a>
+            <a href="#book-appointment" class="float-enquiry">📝 Enquiry Now</a>
+        </div>
+
     </body>
 </html>
