@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://24x7servicescare.com/sitemap.xml
